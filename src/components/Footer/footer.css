@@ -1,0 +1,14 @@
+
+footer{
+    background-color:rgb(255, 106, 0); 
+    display:flex;
+    justify-content: space-evenly}
+
+footer h1{
+    color:rgb(251, 179, 135);
+    text-align: center;
+    }
+
+footer p{
+    color:white
+    }
