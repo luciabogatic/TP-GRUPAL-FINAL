@@ -36,8 +36,23 @@ const productos = [
     },
 ]
 
+const navButtos =[
+    {
+        link: '#',
+        text: 'Inicio'
+    },
+    {
+        link: '#nosotras',
+        text: 'Sobre Nosotros'
+    },
+    {
+        link: 'https://www.google.com.ar/',
+        text: 'Productos'
+    }
+]
+
 
 export {
     productos,
-
+    navButtos
 }

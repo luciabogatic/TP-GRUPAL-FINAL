@@ -1,4 +1,6 @@
 import React from 'react'
+import { ipa } from '../../assets';
+import './nosotras.css';
 
 export const Nosotras = () => {
   return (
@@ -26,7 +28,7 @@ export const Nosotras = () => {
             <div className="color2">
                 <div className="col-md-5">
                     <div className="animate__animated animate__backInUp">
-                    <img className="img-fluid w-100" src="./assets/img/foto_ipa_cocinera.jpeg" alt="" width="50" height="50"></img>
+                    <img className="img-fluid w-100" src={ipa}alt="" width="50" height="50"></img>
                     </div>
                 </div>
             </div>

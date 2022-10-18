@@ -16,7 +16,11 @@ import { Footer } from "./components/Footer/Footer.js";
 import { Feedback } from "./components/Feedback/Feedback.js";
 import { Presentacion } from "./components/Presentacion/Presentacion.js";
 import { Nosotras } from "./components/Nosotras/Nosotras.js";
-
+import { Snacks } from "./components/Snacks/Snacks.js";
+import { Beneficios } from "./components/Beneficios/Beneficios.js";
+import { Contacto } from "./components/Contacto/Contacto.js";
+import { Informacion } from "./components/Informacion/Informacion.js";
+import { Preguntas } from "./components/Preguntas/Preguntas.js";
 
 function App() {
   //  console.log(dataProducts)
@@ -35,9 +39,15 @@ function App() {
 
       <NavBar/>
       <Presentacion/>
+      <Snacks/>
       <Nosotras/>
+      <Beneficios/>
+      <Contacto/>
+      <Informacion/>
       <Feedback/>
+      <Preguntas/>
       <Footer/>
+      
       
       
     </>

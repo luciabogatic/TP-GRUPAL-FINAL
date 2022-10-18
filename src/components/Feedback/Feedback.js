@@ -1,4 +1,5 @@
 import React from 'react'
+import { feedback } from '../../assets'
 import './feedback.css'
 
 export const Feedback = () => {
@@ -24,7 +25,7 @@ export const Feedback = () => {
     </div>
 
     <div className="col-md-6"> 
-      <center><img src="./assets/img/img3.jpeg" width="500px" height="500px"></img></center>
+      <center><img src={feedback} width="500px" height="500px"></img></center>
     </div>
   </div>
   </div>
