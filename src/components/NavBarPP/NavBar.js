@@ -1,5 +1,6 @@
 //si pongo rafc me crea el componente solo
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { logo } from '../../assets';
 
 import { navButtos } from '../../data/productos';
@@ -16,11 +17,11 @@ export const NavBar = () => {
             {navButtos.map(
             ({text, link}) => (
             <li key={text} className = 'nav-item'>
-               <a aria-current='page' href={link}>
+               <Link aria-current='page' to={link}>
                 <button type="button" class="btn btn-light">
                {text} 
                </button>
-              </a>
+              </Link>
             </li>)
 
             )}

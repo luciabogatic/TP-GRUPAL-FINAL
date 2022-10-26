@@ -38,17 +38,21 @@ const productos = [
 
 const navButtos =[
     {
-        link: '#',
+        link: 'home',
         text: 'Inicio'
     },
     {
-        link: '#nosotras',
+        link: 'nosotras',
         text: 'Sobre Nosotros'
     },
     {
-        link: 'https://www.google.com.ar/',
+        link: 'productos',
         text: 'Productos'
-    }
+    },
+    {
+        link: 'contacto',
+        text: 'Contacto'
+    },
 ]
 
 
