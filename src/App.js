@@ -25,6 +25,9 @@ import { Home } from "./components/pages/Home";
 import { Nosotraspages } from "./components/pages/Nosotraspages";
 import { Contactopages } from "./components/pages/Contactopages";
 import { Productospages } from "./components/pages/Productospages";
+import { Presentacion } from "./components/Presentacion/Presentacion.js";
+import { Principal } from "./components/pages/Principal";
+
 
 
 function App() {
@@ -45,12 +48,12 @@ function App() {
       <NavBar/>
       
       <Routes>
+      <Route path="/" element={<Principal/>}/>
       <Route path="/home" element={<Home />} />
       <Route path="/nosotras" element={<Nosotraspages/>} />
       <Route path="/contacto" element={<Contactopages/>} />
       <Route path="/productos" element={<Productospages/>} />
       </Routes>
-
 
       <Footer/>
       
