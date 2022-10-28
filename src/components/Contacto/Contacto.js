@@ -15,7 +15,7 @@ export const Contacto = () => {
       <div className="row">
           <div className="col-6 col-md-3">
               <div className="img_redes" >
-                  <a href="https://instagram.com/bitemesnacks?igshid=YmMyMTA2M2Y="><img src={ig} alt="" width="100%" height="100%"></img></a>
+                  <a href="https://instagram.com/bitemesnacks?igshid=YmMyMTA2M2Y="><img src={ig} alt="" width="100%" height="100%" id="ig"></img></a>
                   <hr></hr><i><h5>Instagram</h5></i>
                   <p>@bitemesnacks</p>
               </div>

@@ -6,7 +6,7 @@ export  { default as bocadillo} from "./img/img2.jpeg";
 
 export  { default as beneficios} from "./img/img1.jpeg";
 
-export  { default as ig} from "./img/logo-instagram.png";
+export  { default as ig} from "./img/instagram.webp";
 
 export  { default as gmail} from "./img/logo_gmail2.jpg";
 
