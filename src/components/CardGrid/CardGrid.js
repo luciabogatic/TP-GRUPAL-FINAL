@@ -3,10 +3,7 @@ import { BtnMain } from '../BtnMain'
 
 
 export const CardGrid = ({data}) => {
-    const filtrado = (data)=>{
-        console.log(data)
-    }
-    filtrado()
+    
   return (
     <>
         <div className="row row-cols-1 row-cols-md-4 g-4">

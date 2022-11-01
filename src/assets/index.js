@@ -25,3 +25,15 @@ export  { default as info4} from "./img/img10.jpeg"
 export  { default as info5} from "./img/img4.jpeg"
 
 export  { default as feedback} from "./img/img3.jpeg"
+
+export  { default as cookies} from "./img/galletita1.jpeg"
+
+export  { default as bulldog} from "./img/galletita6.jpeg"
+
+export  { default as caramelos} from "./img/galletita4.jpeg"
+
+export  { default as patitas} from "./img/galletita3.jpeg"
+
+export  { default as bastoncitos} from "./img/galletita2.jpeg"
+
+export  { default as huesitos} from "./img/galletita5.jpeg"

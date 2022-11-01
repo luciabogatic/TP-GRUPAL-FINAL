@@ -1,3 +1,6 @@
+#snacks {
+    margin-bottom: 30px;
+}
 
 h1{
     color: rgb(95, 95, 95);
@@ -7,4 +10,13 @@ h1{
 button{
     color:white;
     background-color: rgb(255, 106, 0)
+}
+
+#carrito img {
+    height: 400px;
+}
+
+#carrito button:hover {
+    background-color:rgb(255, 106, 0);
+    border-color:rgb(255, 106, 0)
 }

@@ -1,39 +1,42 @@
+import { bastoncitos, bulldog, caramelos, cookies, huesitos, patitas } from '../assets'
+
 const productos = [
     {
-        id: 'sku001',
-        title: 'Producto 01',
-        text:  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum sem quis congue gravida. Fusce feugiat porta quam, at congue velit blandit at. Etiam porta gravida lacus in elementum. Ut sagittis facilisis massa at malesuada. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean non euismod erat. Fusce vitae vehicula quam. Sed nisl lorem, porta vel augue vehicula, elementum molestie massa.',
-        img: 'https://picsum.photos/200/200?random=1',
-        categorie: 'cat01'
+        id: 'cookies',
+        title: 'COOKIE',
+        text:  'Con chips de chocolate',
+        img: cookies,
     },
     {
-        id: 'sku002',
-        title: 'Producto 02',
-        text:  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum sem quis congue gravida. Fusce feugiat porta quam, at congue velit blandit at. Etiam porta gravida lacus in elementum. Ut sagittis facilisis massa at malesuada. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean non euismod erat. Fusce vitae vehicula quam. Sed nisl lorem, porta vel augue vehicula, elementum molestie massa.',
-        img: 'https://picsum.photos/200/200?random=2',
-        categorie: 'cat02'
+        id: 'bull_dog',
+        title: 'BULL DOG',
+        text:  'De cerdo y papa',
+        img: bulldog,
     },
     {
-        id: 'sku003',
-        title: 'Producto 03',
-        text:  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum sem quis congue gravida. Fusce feugiat porta quam, at congue velit blandit at. Etiam porta gravida lacus in elementum. Ut sagittis facilisis massa at malesuada. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean non euismod erat. Fusce vitae vehicula quam. Sed nisl lorem, porta vel augue vehicula, elementum molestie massa.',
-        img: 'https://picsum.photos/200/200?random=3',
-        categorie: 'cat01'
+        id: 'caramelos',
+        title: 'CARAMELOS',
+        text:  'Con semillas variadas',
+        img: caramelos,
     },
     {
-        id: 'sku004',
-        title: 'Producto 04',
-        text:  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum sem quis congue gravida. Fusce feugiat porta quam, at congue velit blandit at. Etiam porta gravida lacus in elementum. Ut sagittis facilisis massa at malesuada. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean non euismod erat. Fusce vitae vehicula quam. Sed nisl lorem, porta vel augue vehicula, elementum molestie massa.',
-        img: 'https://picsum.photos/200/200?random=4',
-        categorie: 'cat02'
+        id: 'patitas',
+        title: 'PATITAS',
+        text:  'Con pollo y crema',
+        img: patitas,
     },
     {
-        id: 'sku005',
-        title: 'Producto 05',
-        text:  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum sem quis congue gravida. Fusce feugiat porta quam, at congue velit blandit at. Etiam porta gravida lacus in elementum. Ut sagittis facilisis massa at malesuada. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean non euismod erat. Fusce vitae vehicula quam. Sed nisl lorem, porta vel augue vehicula, elementum molestie massa.',
-        img: 'https://picsum.photos/200/200?random=5',
-        categorie: 'cat01'
+        id: 'bastoncitos',
+        title: 'BASTONCITOS',
+        text:  'De pollo y zanahoria',
+        img: bastoncitos,
     },
+    {
+        id: 'huesitos',
+        title: 'HUESITOS',
+        text:  'Con carne de cerdo y condimentos',
+        img: huesitos,
+    }
 ]
 
 const navButtos =[
