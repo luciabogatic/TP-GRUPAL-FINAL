@@ -37,3 +37,13 @@ export  { default as patitas} from "./img/galletita3.jpeg"
 export  { default as bastoncitos} from "./img/galletita2.jpeg"
 
 export  { default as huesitos} from "./img/galletita5.jpeg"
+
+export  { default as carrot} from "./img/img12.jpeg"
+
+export  { default as flower} from "./img/img13.jpeg"
+
+export  { default as vanilla} from "./img/img14.jpeg"
+
+export { default as cartFull} from "./img/shopping-full.svg"
+
+export { default as cartEmpty} from "./img/shopping-empty.svg"

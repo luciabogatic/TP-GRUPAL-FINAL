@@ -27,6 +27,7 @@ import { Contactopages } from "./components/pages/Contactopages";
 import { Productospages } from "./components/pages/Productospages";
 import { Presentacion } from "./components/Presentacion/Presentacion.js";
 import { Principal } from "./components/pages/Principal";
+import { CartProvider } from "./components/context/CardContext";
 
 
 
@@ -45,6 +46,8 @@ function App() {
       {/* <DesestObj /> */}
       {/* <DesestArray /> */}
 
+      
+      <CartProvider/>
       <NavBar/>
       
       <Routes>

@@ -1,5 +1,4 @@
 import React from 'react'
-import '../Snacks/snacks.css'
 
 
 export const CarritoDinamico = ({data}) => {

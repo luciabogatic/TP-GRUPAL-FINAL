@@ -3,6 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { logo } from '../../assets';
 import { navButtos } from '../../data/productos';
+import { Cart } from '../Cart/Cart';
 import './navBar.css';
 
 export const NavBar = () => {
@@ -25,6 +26,8 @@ export const NavBar = () => {
             </li>)
 
             )}
+
+            {/* <Cart/> */}
           
           </ul>
         </div>
