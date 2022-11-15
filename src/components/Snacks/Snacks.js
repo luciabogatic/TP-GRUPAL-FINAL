@@ -4,6 +4,7 @@ import { CarritoDinamico} from '../CarritoDinamico/Carrito'
 import { snacks } from '../../data/productos';
 
 export const Snacks = () => {
+  
   return (
     <section id="snacks">
     <div className="row"> 

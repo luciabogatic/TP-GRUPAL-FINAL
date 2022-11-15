@@ -27,7 +27,7 @@ export const NavBar = () => {
 
             )}
 
-            {/* <Cart/> */}
+            <Cart/>
           
           </ul>
         </div>
