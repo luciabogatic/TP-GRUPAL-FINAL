@@ -2,24 +2,27 @@ nav{
     background-color: rgb(241, 217, 195);
     display:flex;
     flex-direction: row;
-    height: 110px}
+    height: 110px;
+    margin: 0
+}
 
 nav ul {
    display: flex}
 
 nav li{
     margin-left: 20px;
-    list-style: none}
+    list-style: none
+}
 
 nav a{
     text-decoration: none;
-    color:rgb(0, 0, 0)}
+    color:rgb(0, 0, 0)
+}
 
 
 nav img{
-    display: flex;
-    max-height: 115px;
-    width: auto}
+    width: 28%;
+}
 
 
 .menuButton{
@@ -27,4 +30,12 @@ nav img{
     align-items: center;
     justify-content: flex-end;
     width: 100%;
-    padding: 20px}
+    padding: 20px
+}
+
+
+@media screen and (max-width:700px) {
+    .menu {
+        display: none;
+    }
+}

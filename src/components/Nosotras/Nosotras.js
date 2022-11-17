@@ -7,8 +7,8 @@ export const Nosotras = () => {
     <section id="nosotras">
     <div className="container-fluid">
       <div className="row">
-        <h1 className="col-md-12">Sobre Nosotras</h1>
-        <div className="color1 col-md-7">
+        <h1 className="col-12 col-md-12">Sobre Nosotras</h1>
+        <div className="color1 col-12 col-md-7">
               <div><br></br>
                   <h2>Quienes Somos</h2><hr></hr>
                   <p>
@@ -25,7 +25,7 @@ export const Nosotras = () => {
               </div>
         </div>
           
-        <div className="color1 col-md-5">
+        <div className="color1 col-12 col-md-5" id="ipa">
           <div className="animate__animated animate__backInUp">
             <img className="img-fluid w-100" src={ipa}alt="" width="50" height="50"></img>
           </div>

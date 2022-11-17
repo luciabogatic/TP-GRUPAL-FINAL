@@ -3,16 +3,17 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { logo } from '../../assets';
 import { navButtos } from '../../data/productos';
-import { Cart } from '../Cart/Cart';
 import './navBar.css';
 
 export const NavBar = () => {
     return (
         
         <nav className="menu"> 
-        
-        <img  src={logo} alt="logo_biteme" width="200"></img>
-                
+
+        <Link aria-current='page' to={""}>
+          <img  src={logo} alt="logo_biteme" width="200"></img>
+        </Link>   
+
         <div className="menuButton">
           <ul>
             {navButtos.map(
@@ -27,7 +28,7 @@ export const NavBar = () => {
 
             )}
 
-            <Cart/>
+            {/* <Cart/> */}
           
           </ul>
         </div>

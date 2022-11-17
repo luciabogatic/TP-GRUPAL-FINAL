@@ -1,7 +1,18 @@
 #preguntas{
     background-color: whitesmoke;
-    padding: 30px}
+    padding: 20px
+}
 
 #preguntas h1{
     color:rgb(255, 106, 0);
-    text-align:center}
+    text-align:center
+}
+
+.accordion-item {
+    margin: 5px;
+    padding:5px;
+}
+
+#flush-collapseOne, #flush-collapseTwo, #flush-collapseThree {
+    padding: 20px;
+}

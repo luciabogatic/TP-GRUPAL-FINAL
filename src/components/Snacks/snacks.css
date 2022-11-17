@@ -2,12 +2,19 @@
     margin-bottom: 30px;
 }
 
-h1{
+h1 {
     color: rgb(95, 95, 95);
     text-align: center;
+    margin-top: 30px;
 }
 
-button{
+h2 {
+    color:rgb(255, 106, 0);
+    text-align: center;
+    font-style: italic;
+}
+
+button {
     color:white;
     background-color: rgb(255, 106, 0)
 }
@@ -18,5 +25,11 @@ button{
 
 #carrito button:hover {
     background-color:rgb(255, 106, 0);
-    border-color:rgb(255, 106, 0)
+    border-color:rgb(255, 106, 0);
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

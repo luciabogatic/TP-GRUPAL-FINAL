@@ -1,7 +1,26 @@
 #feedback {
-    margin: 50px 0;
+    margin: 50px 1em 1em 1em;
 }
 
 #feedback h1{
     color: rgb(251, 179, 135);
-    text-align: center}
+    text-align: center
+}
+
+label, input {
+    margin: 20px 0;
+}
+
+#enviar {
+    margin-left: 250px;
+}
+
+@media screen and (max-width:700px) {
+    textarea {
+        height: 120px;
+    }
+
+    #enviar {
+        margin-left: 140px;
+    }
+}

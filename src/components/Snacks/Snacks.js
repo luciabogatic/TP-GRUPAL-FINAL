@@ -7,13 +7,13 @@ export const Snacks = () => {
   
   return (
     <section id="snacks">
-    <div className="row"> 
-    <div><center><h1>CONOCE NUESTROS PRODUCTOS</h1></center></div>
-    <h1 className="mb-4">Nuestros Snacks</h1>
+      <div className='container'>
+        <h1>CONOCE NUESTROS PRODUCTOS</h1>
+        <h2 className="mb-4">Nuestros Snacks</h2>
 
-    <CarritoDinamico data={snacks}/>
+        <CarritoDinamico data={snacks}/>
+      </div>
 
-</div>
-</section>
+    </section>
   )
 }

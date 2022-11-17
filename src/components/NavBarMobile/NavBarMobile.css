@@ -1,0 +1,32 @@
+#mobile_nav {
+    display: none;
+}
+
+@media screen and (max-width:700px) {
+    #mobile_nav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #logo_biteme {
+        margin: 0;
+        width: 100px;
+        padding: 0;
+    }
+    
+    .offcanvas-end {
+        width: 80%;
+        background-color: whitesmoke;
+    }
+
+    #mobile_nav button {
+        background-color: transparent;
+        color:coral;
+        border-style: none;
+        padding: 8px 0;
+    }
+
+    #mobile_nav button:hover {
+        color:black;
+    }
+}

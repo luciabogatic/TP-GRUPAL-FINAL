@@ -43,7 +43,7 @@ export const Beneficios = () => {
                 </ul>
               </div>
             </div>
-            <button type="button" className="btn btn-secondary">Aprendé más sobre nosotros</button>
+            <button type="button" className="btn btn-secondary offset-1 col-10 offset-lg-2 col-lg-8">Aprendé más sobre nosotros</button>
           
           </div>
         </div>
