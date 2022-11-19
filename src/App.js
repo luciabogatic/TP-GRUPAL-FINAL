@@ -9,6 +9,7 @@ import { Contactopages } from "./components/pages/Contactopages";
 import { Productospages } from "./components/pages/Productospages";
 import { Principal } from "./components/pages/Principal";
 import { CartProvider } from "./components/context/CardContext";
+import { CartPage } from "./components/pages/CartPage";
 
 
 
@@ -16,19 +17,22 @@ function App() {
 
   return (
     <>
-      <CartProvider/>
-      <NavBar/>
-      <NavBarMobile/>
-      
-      <Routes>
-      <Route path="/" element={<Principal/>}/>
-      <Route path="/home" element={<Home />} />
-      <Route path="/nosotras" element={<Nosotraspages/>} />
-      <Route path="/contacto" element={<Contactopages/>} />
-      <Route path="/productos" element={<Productospages/>} />
-      </Routes>
+      <CartProvider>
+        <NavBar/>
+        <NavBarMobile/>
+        
+        <Routes>
+        <Route path="/" element={<Principal/>}/>
+        <Route path="/home" element={<Home />} />
+        <Route path="/nosotras" element={<Nosotraspages/>} />
+        <Route path="/contacto" element={<Contactopages/>} />
+        <Route path="/productos" element={<Productospages/>} />
+        <Route path="/cart" element={<CartPage/>} />
+        </Routes>
 
-      <Footer/>
+        <Footer/>
+
+      </CartProvider>
     </>
   );
 }

@@ -1,8 +1,8 @@
 import React, { useContext, useEffect, useState } from 'react'
+import { Link } from 'react-router-dom';
 
 import { cartFull, cartEmpty } from '../../assets';
 import { CartContext } from '../context/CardContext';
-import { ItemCart } from '../ItemCart/ItemCart';
 
 
 
@@ -37,24 +37,45 @@ export const Cart = () => {
             data-bs-target='#cartContent'
 
         >
-        <div id='cart'>
-                <img
-                    alt='cart'
-                    src={cartFull}
-                />
-                <div id='itemNum'>
+            {productsLength > 0 ? (
+               <Link to={'cart'}>
+                    <div id='cart'>
+                            <img
+                                alt='cart'
+                                src={cartFull}
+                            />
+                            <div id='itemNum'>
 
-                    <div>
-                        {productsLength}
+                                <div>
+                                    {productsLength}
+                                </div>
+
+                            </div>
+
+                    </div>
+               </Link> 
+            ):(
+
+                    <div id='cart'>
+                            <img
+                                alt='cart'
+                                src={cartFull}
+                            />
+                            <div id='itemNum'>
+
+                                <div>
+                                    {productsLength}
+                                </div>
+
+                            </div>
+
                     </div>
 
-                </div>
-
-        </div>
+            )}
             
 
-            {cartItems && cartOpen && (
-                <div className='modal fade' id='cartContent' tabIndex='-1' aria-labelledby='cartContentLabel' aria-hidden='true'>
+            {/* {cartItems && cartOpen && (
+                <div className='modal fade' id='cartContent' tabIndex='-1' aria-labelledby='staticBackdropLabel' aria-hidden='true'>
                     <div id='cartOpen' className='modal-dialog'>
                         <div className='modal-content'>
                             <h2>Tu carrito</h2>
@@ -71,7 +92,7 @@ export const Cart = () => {
                         </div>
                     </div>
                 </div>
-            )}
+            )} */}
         </div>
     )
 }

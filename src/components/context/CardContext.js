@@ -53,6 +53,8 @@ export const CartProvider = ({ children }) => {
                 }else return productInCart
             })  
         )};
+
+        
     };
     return(
         <CartContext.Provider value={{cartItems, addItemToCart, deleteItemToCart}}>

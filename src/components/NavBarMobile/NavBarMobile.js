@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { logo } from '../../assets';
 import { navButtos } from '../../data/productos';
+import { Cart } from '../Cart/Cart';
 import './NavBarMobile.css';
 
 export const NavBarMobile = () => {
@@ -37,6 +38,8 @@ export const NavBarMobile = () => {
                                     </li>
                                 )
                             )}
+
+                        <Cart/>
 
                         </ul>
                     </div>

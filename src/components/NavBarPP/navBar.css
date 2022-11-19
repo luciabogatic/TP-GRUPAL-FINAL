@@ -21,8 +21,9 @@ nav a{
 
 
 nav img{
-    width: 28%;
-}
+    display: flex;
+    max-height: 115px;
+    width: auto}
 
 
 .menuButton{

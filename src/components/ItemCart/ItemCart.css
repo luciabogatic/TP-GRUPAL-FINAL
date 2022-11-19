@@ -1,3 +1,14 @@
+.cartItem {
+    text-align: center;
+}
+
 .cartItem img{
     width: 60px;
+}
+
+.cartItem button {
+    border-radius: 10%;
+    border-color: transparent;
+    margin: 10px;
+    padding: 5px;
 }
